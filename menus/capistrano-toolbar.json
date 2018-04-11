@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle capistrano-toolbar",
+        "command": "capistrano-toolbar:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "capistrano-toolbar",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "capistrano-toolbar:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

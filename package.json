@@ -1,0 +1,26 @@
+{
+  "name": "capistrano-toolbar",
+  "main": "./lib/capistrano-toolbar",
+  "version": "0.0.0",
+  "description": "A toolbar extension for tool-bar to deploy faster.",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1"
+  },
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "capistrano-toolbar:toggle"
+  },
+  "repository": "https://github.com/philicevic/capistrano-toolbar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "package-deps": [
+    "tool-bar"
+  ],
+  "dependencies": {
+  }
+}
